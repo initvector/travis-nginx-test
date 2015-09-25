@@ -10,6 +10,8 @@ ROOT=$(realpath "$DIR/..")
 PORT=9000
 SERVER="/tmp/php.sock"
 
+echo Current user: $USER
+
 function tpl {
     sed \
         -e "s|{DIR}|$DIR|g" \

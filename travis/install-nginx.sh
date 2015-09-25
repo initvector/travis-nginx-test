@@ -10,7 +10,7 @@ ROOT=$(realpath "$DIR/..")
 PORT=9000
 SERVER="/tmp/php.sock"
 
-echo Current user: $USER
+ls -Al
 
 function tpl {
     sed \
